@@ -1,0 +1,191 @@
+.main {
+  width: 1280px;
+  height: 440px;
+  position: absolute;
+
+  &__image {
+    display: inline-block;
+    width: 899px;
+    height: 440px;
+    position: absolute;
+
+  }
+  &__text {
+    float: right;
+    padding-top: 30px;
+    padding-right: 60px;
+  }
+  &__text1 {
+    font-family: $pt-mono;
+    font-size: $xxx-large;
+
+  }
+  &__text2 {
+    font-family: $roboto;
+  }
+}
+
+.container {
+  height: 440px;
+  width: 899px;
+  position: relative;
+  display: inline-block;
+
+  p {
+    font-family: $roboto;
+    font-size: $medium;
+  }
+
+  h1 {
+    font-family: $pt-mono;
+    font-size: $xx-large;
+  }
+
+  &__image {
+
+  }
+  &__text{
+    height: 136px;
+    width: 469px;
+    background-color: $white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  &__text1 {
+  //background-color: blue;
+  height: 136px;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+
+  }
+  &__text2 {
+  display: inline-block;
+  height: 136px;
+  width: 80px;
+  text-align: center;
+  //background-color: coral;
+  }
+  &__text3 {
+  display: inline-block;
+  height: 136px;
+  width: 200px;
+  text-align: center;
+  //background-color: black;
+  }
+}
+
+.container2 {
+  height: 440px;
+  width: 380px;
+  background-color: $white;
+  float: right;
+  margin-right: 161px;
+  position: relative;
+  &__title {
+    font-family: $pt-mono;
+    font-size: $xxx-large;
+    padding-left: 80px;
+  }
+  &__subtitle {
+    font-family: $roboto;
+    font-size: $large;
+    position: absolute;
+    top: 220px;
+    left: 80px;
+
+  }
+  &__orange {
+    background-color: $flame;
+    height: 135px;
+    width: 135px;
+    position: absolute;
+    bottom: 20px;
+    left: -20px;
+  }
+  &__yellow {
+    background-color: #EACB31;
+    height: 135px;
+    width: 135px;
+    position: absolute;
+    bottom: 0;
+  }
+
+}
+
+.fas {
+  color: $white;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.container3 {
+  box-sizing: border-box;
+  height: 264px;
+  width: 899px;
+  display: inline-block;
+  position: relative;
+  &__img1 {
+    height: 210px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    z-index: 2;
+  }
+  &__blue {
+    background-color: $blue-de-France;
+    height: 232px;
+    width: 469px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  &__img2 {
+    height: 60%;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    z-index: 3;
+  }
+  &__img3 {
+    width: 381px;
+    height: 264px;
+    position: absolute;
+    top: 0;
+    right: -380px;
+  }
+  &__title {
+    font-family: $pt-mono;
+    font-size: $x-large;
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  &__subtitle {
+    font-family: $roboto;
+    font-size: $medium;
+    padding-left: 30px;
+    padding-right: 600px;
+  }
+}
+
+
+
+//.main__yellow {
+  //display: inline-block;
+  //width: 135px;
+  //height: 136px;
+//  background-color: #EACB31;
+  //float: right;
+//}
+
+//.main__text-box {
+//  width: 469px;
+//  height: 136px;
+//  background-color: $coral;
+//  position: absolute;
+//  z-index: 1;
+
+//}
